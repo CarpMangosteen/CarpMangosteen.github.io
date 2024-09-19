@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>StartHere | 鲤鱼的博客</title>
+<meta name="description" content="C++及科研记录">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://CarpMangosteen.github.io/favicon.ico?v=1726750819865">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://CarpMangosteen.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://CarpMangosteen.github.io">
+        <img class="avatar" src="https://CarpMangosteen.github.io/images/avatar.png?v=1726750819865" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://CarpMangosteen.github.io">
+        <h1 class="site-title">鲤鱼的博客</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">StartHere</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2024-09-14</span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <h2 id="c学习路线">C++学习路线</h2>
+<p>考虑从《C++ Primer Plus》-&gt;《Effective C++》，同步学习Linux。<br>
+截至2024.9.14，水平为C+常用STL。</p>
+<h2 id="正在做的c有趣小项目">正在做的C++有趣小项目</h2>
+<ul>
+<li>WebServer，已在阿里云部署跑通一教学目的的<a href="https://github.com/qinguoyi/TinyWebServer">WebServer</a>,计划是先从最基础的功能开始一步一步分离出模块实现。考虑从这个基础<a href="https://github.com/yuesong-feng/30dayMakeCppServer">WebServer</a>。</li>
+<li>IM软件，实现基本的实时通讯，参考<a href="https://github.com/balloonwj/flamingo/tree/master/flamingoserver">flamingo</a>。</li>
+<li>树莓派等等，如树莓派跑通LLM<a href="https://github.com/mudler/LocalAI">LocalAI</a></li>
+</ul>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">C++及科研记录</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://CarpMangosteen.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

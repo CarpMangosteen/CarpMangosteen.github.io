@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CarpMangosteen.github.io</id>
+    <title>鲤鱼的博客</title>
+    <updated>2024-09-19T13:00:22.590Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://CarpMangosteen.github.io"/>
+    <link rel="self" href="https://CarpMangosteen.github.io/atom.xml"/>
+    <subtitle>C++及科研记录</subtitle>
+    <logo>https://CarpMangosteen.github.io/images/avatar.png</logo>
+    <icon>https://CarpMangosteen.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 鲤鱼的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Carla关于论文的仿真]]></title>
+        <id>https://CarpMangosteen.github.io/post/carla-guan-yu-lun-wen-de-fang-zhen/</id>
+        <link href="https://CarpMangosteen.github.io/post/carla-guan-yu-lun-wen-de-fang-zhen/">
+        </link>
+        <updated>2024-09-19T12:58:48.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="todolist">ToDoList：</h2>
+<ul>
+<li>MobaXterm用于将远程pygame界面显示到本地。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于Cpp WebServer的初步总结与有感]]></title>
+        <id>https://CarpMangosteen.github.io/post/guan-yu-cpp-webserver-de-chu-bu-zong-jie-yu-you-gan/</id>
+        <link href="https://CarpMangosteen.github.io/post/guan-yu-cpp-webserver-de-chu-bu-zong-jie-yu-you-gan/">
+        </link>
+        <updated>2024-09-19T11:55:59.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>目前结束的部分：构建了可以互相通信的服务端和客户端，其中实现了异步通信、实现了利用epoll使多个客户端连接一个服务端，重构成了Cpp代码。</p>
+</blockquote>
+<p>在此过程中感受有：</p>
+<ol>
+<li>有很多Linux指令以及编程的库，比如socket的函数等需要现查。</li>
+<li>Cpp类和对象的使用不熟练。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StartHere]]></title>
+        <id>https://CarpMangosteen.github.io/post/starthere/</id>
+        <link href="https://CarpMangosteen.github.io/post/starthere/">
+        </link>
+        <updated>2024-09-14T05:55:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="c学习路线">C++学习路线</h2>
+<p>考虑从《C++ Primer Plus》-&gt;《Effective C++》，同步学习Linux。<br>
+截至2024.9.14，水平为C+常用STL。</p>
+<h2 id="正在做的c有趣小项目">正在做的C++有趣小项目</h2>
+<ul>
+<li>WebServer，已在阿里云部署跑通一教学目的的<a href="https://github.com/qinguoyi/TinyWebServer">WebServer</a>,计划是先从最基础的功能开始一步一步分离出模块实现。考虑从这个基础<a href="https://github.com/yuesong-feng/30dayMakeCppServer">WebServer</a>。</li>
+<li>IM软件，实现基本的实时通讯，参考<a href="https://github.com/balloonwj/flamingo/tree/master/flamingoserver">flamingo</a>。</li>
+<li>树莓派等等，如树莓派跑通LLM<a href="https://github.com/mudler/LocalAI">LocalAI</a></li>
+</ul>
+]]></content>
+    </entry>
+</feed>
